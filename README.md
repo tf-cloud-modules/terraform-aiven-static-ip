@@ -1,0 +1,1 @@
+# terraform-aiven-static-ip
