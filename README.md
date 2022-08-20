@@ -2,6 +2,16 @@
 
 Terraform module which creates Aiven Static IP resources
 
+## Usage
+
+```hcl
+module "static-ip" {
+  source       = "tf-cloud-modules/static-ip/aiven"
+  project      = "test"
+  service_name = "test"
+}
+```
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
