@@ -14,3 +14,9 @@ variable "project" {
   description = "Aiven Cloud Project Name"
   type        = string
 }
+
+variable "termination_protection" {
+  description = "Static IP address is protected against deletion."
+  type        = bool
+  default     = false
+}
