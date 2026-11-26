@@ -7,13 +7,15 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [2.1.0] - 2026-11-26
+
 ### Added
 - Add support for static IP deletion protection.
 - Expose the static IP address ID, assigned service name, and state.
 - Add a complete, validated example with an exact tested provider pin.
 
 ### Changed
-- Pin the tested `aiven/aiven` provider to version `4.66.0`.
+- Pin and test the `aiven/aiven` provider at version `4.66.0`.
 
 ### Fixed
 - Return the IPv4 address from the `ip_address` output.
@@ -35,6 +37,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Initial release.
 
-[Unreleased]: https://github.com/tf-cloud-modules/terraform-aiven-static-ip/compare/2.0.0...HEAD
+[Unreleased]: https://github.com/tf-cloud-modules/terraform-aiven-static-ip/compare/2.1.0...HEAD
+[2.1.0]: https://github.com/tf-cloud-modules/terraform-aiven-static-ip/compare/2.0.0...2.1.0
 [2.0.0]: https://github.com/tf-cloud-modules/terraform-aiven-static-ip/compare/0.1.2...2.0.0
 [0.1.2]: https://github.com/tf-cloud-modules/terraform-aiven-static-ip/compare/0.1.0...0.1.2
