@@ -12,7 +12,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Expose the static IP address ID, assigned service name, and state.
 
 ### Changed
-- Require aiven/aiven provider version 4.66.0 or later, while remaining compatible with provider v4.
+- Pin the tested `aiven/aiven` provider to version `4.66.0`.
 
 ### Fixed
 - Return the IPv4 address from the `ip_address` output.
