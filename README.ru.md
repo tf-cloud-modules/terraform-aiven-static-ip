@@ -14,6 +14,10 @@ module "static-ip" {
 }
 ```
 
+## Примеры
+
+- [Полный пример](examples/complete)
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
